@@ -126,3 +126,12 @@ h5{
         font-size: 2em;
     }
 }
+@media screen and (max-width:375px) {
+    body{
+        background-image:url(https://images7.alphacoders.com/337/337742.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
