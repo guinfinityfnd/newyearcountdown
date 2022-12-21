@@ -51,36 +51,40 @@ h1{
 
 h5{
     text-transform: uppercase;
-    font-size: 3em;
+    color: #ffff;
+    font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center; */
-    animation: newyear 20s infinite;
-    z-index: 99;
+    /* text-shadow:0 10px 2px rgb(255, 0, 0); */
+    -webkit-box-reflect: below -3px linear-gradient(transparent,rgba(0,0,0,0.2));
+    /* animation: newyear 20s infinite; */
+}
+
+h6>span{
+    position: relative;
+    display: inline-block;
+    animation: newyear 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    color: red;
 }
 
 @keyframes newyear {
     0%{
-        color: red;
-        transform: translate(5px, 1px) rotate(360deg); 
+        transform: translateY(0px); 
     }
-    25%{
-        color: rgb(63, 63, 63);
+    20%{
+        transform: translateY(-50px); 
+        color: #ffff;
     }
-    50%{
-        color: rgb(19, 168, 44);
-    }
-    75%{
-        color: rgb(255, 197, 6);
+    80%{
+        transform: translateY(50px);
+        color: aqua;
     }
     100%{
-        color: rgb(4, 0, 255);
+        transform: translateY(0px); 
     }
 }
 
