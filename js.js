@@ -6,7 +6,7 @@ const e = document.querySelector('h5');
 const container = document.querySelector('.container');
 const b = document.querySelector('body');
 
-const endDate = new Date(2022,11,21,00);
+const endDate = new Date(2023,0,1,00);
 const endTime = endDate.getTime();
 // console.log(Math.floor(endDate));
 const countdown = () => {
