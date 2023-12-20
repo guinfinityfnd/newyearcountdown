@@ -7,6 +7,7 @@ const container = document.querySelector('.container');
 const b = document.querySelector('body');
 
 const endDate = new Date(2024,0,1,00);
+// const endDate = new Date(2023,11,20,00);
 const endTime = endDate.getTime();
 // console.log(Math.floor(endDate));
 const countdown = () => {
@@ -25,7 +26,7 @@ const countdown = () => {
         clearInterval(i);
         container.style.display = 'none';
         alert('Min Aung Hlaing is M.A.L');
-        b.style.backgroundImage = "URL('https://i.pinimg.com/736x/d4/33/39/d43339e81bf0e944af88665a75e6d8f3.jpg')";
+        b.style.backgroundImage = "URL('https://img.freepik.com/premium-photo/happy-new-year-2024-golden-numbers-colorful-background-with-glittering_78492-14540.jpg')";
         e.innerHTML = `
             <h6>
                 <span style="--i:1;">H</span>

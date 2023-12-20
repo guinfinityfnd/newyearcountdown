@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(https://media.istockphoto.com/id/1401963038/photo/new-year-2023-background-greeting-card.jpg?b=1&s=170667a&w=0&k=20&c=y-qKy7xq8gznk-Lqw4CHZ2w9833-dyjjKaMrunMyw-k=);
+    background-image: url(https://media.istockphoto.com/id/1519815049/photo/happy-new-year-2024-christmas-gold-blue-glitter.webp?b=1&s=170667a&w=0&k=20&c=hjymHuqH_9U0WQGd6sDXIAMq1xNrcLYTGVcNtgCDU8Y=);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -30,11 +30,12 @@ body{
 h3{
     /* text-align: center; */
     /* letter-spacing: 0rem; */
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
     background-color: grey;
     font-weight: bolder;
-    padding: 4px;
+    padding: 10px;
+    border-radius: 20px;
     /* backdrop-filter: blur(20px); */
 }
 
@@ -51,6 +52,7 @@ h1{
 
 h5{
     text-transform: uppercase;
+    background-size: cover;
     color: #ffff;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
@@ -78,6 +80,7 @@ h6>span{
     20%{
         transform: translateY(-50px); 
         color: #ffff;
+        font-size: 20px;
     }
     80%{
         transform: translateY(50px);
@@ -95,11 +98,14 @@ h6>span{
     padding: 0 10px;
     justify-content: space-evenly;
     background-color: blueviolet;
+    border-radius: 10px;
 }
 
 .text{
     background-color: aqua;
     padding: 1px 3px; 
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .num{
@@ -132,7 +138,8 @@ h6>span{
 }
 @media screen and (max-width:375px) {
     body{
-        background-image:url(https://images7.alphacoders.com/337/337742.jpg);
+        /* background-image:url(https://images7.alphacoders.com/337/337742.jpg); */
+        background-image:url(https://media.istockphoto.com/id/1519815049/photo/happy-new-year-2024-christmas-gold-blue-glitter.webp?b=1&s=170667a&w=0&k=20&c=hjymHuqH_9U0WQGd6sDXIAMq1xNrcLYTGVcNtgCDU8Y=);
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
