@@ -26,7 +26,7 @@ const countdown = () => {
         clearInterval(i);
         container.style.display = 'none';
         alert('Min Aung Hlaing is M.A.L');
-        b.style.backgroundImage = "URL('https://img.freepik.com/premium-photo/happy-new-year-2024-golden-numbers-colorful-background-with-glittering_78492-14540.jpg')";
+        b.style.backgroundImage = "URL('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-jBjQXdu08qp0MPh5aIU_tr6tRlFQfyefA&s')";
         e.innerHTML = `
             <h6>
                 <span style="--i:1;">H</span>
