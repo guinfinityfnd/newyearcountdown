@@ -41,7 +41,7 @@ h3{
 
 h1{
     letter-spacing: 1rem;
-    color: #ffff;
+    color: #d83838;
 }
 
 .content{
@@ -53,7 +53,7 @@ h1{
 h5{
     text-transform: uppercase;
     background-size: cover;
-    color: #ffff;
+    color: #000000;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
@@ -71,6 +71,8 @@ h6>span{
     animation: newyear 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--i));
     color: red;
+    /* font-size: 10px; */
+    /* -webkit-animation: newyear 2s ease-in-out infinite; */
 }
 
 @keyframes newyear {
@@ -106,12 +108,15 @@ h6>span{
     padding: 1px 3px; 
     border-radius: 5px;
     font-weight: bold;
+    margin: 5px;
 }
 
 .num{
     font-size: 1.5em;
     padding: 5px 0;
     font-weight: bolder;
+    color: aqua;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 #seconds{
@@ -119,14 +124,14 @@ h6>span{
 }
 
 @keyframes effect {
-    /* 0%{
-        color:rgb(251, 255, 1);
-    } */
     50%{
-        color:rgb(255, 0, 0);
+        color:rgb(124, 124, 124);
+    }
+    80%{
+        color:rgb(14, 14, 14);
     }
     100%{
-        color:rgb(17, 0, 255);
+        color:rgb(251, 255, 1);
     }
 }
 
